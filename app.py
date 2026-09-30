@@ -7,7 +7,6 @@ Descripción: Dashboard de ventas con 4 secciones
 
 import streamlit as st
 import pandas as pd
-import numpy as np
 
 # Configuración de página
 st.set_page_config(
