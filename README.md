@@ -51,7 +51,7 @@ This repository includes reduced samples of the original datasets (100 rows per 
 2. Install the required dependencies:
 
 ```bash
-pip install -r requisitos.txt
+pip install -r requirements.txt
 ```
 
 3. Run the Streamlit application:
