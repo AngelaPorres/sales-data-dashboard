@@ -1,53 +1,69 @@
 # Sales Data Dashboard 📊
 
-An interactive sales analytics dashboard built with **Python and Streamlit** to explore sales performance across stores, products and regions.
+Interactive sales analytics dashboard developed with **Python, Pandas and Streamlit**.
 
-The dashboard provides different views of the data, allowing users to analyze overall sales performance, identify seasonal patterns and evaluate the impact of promotions.
+The application transforms sales data from CSV files into an interactive dashboard that allows users to explore sales performance across stores, products and regions, analyze seasonal patterns, and evaluate the impact of promotions.
 
 ## 🔍 Features
 
-The application is divided into four main sections:
+The dashboard is divided into four main sections:
 
-### Global Overview
+### 1. Global Overview
 - Key metrics for stores, products, regions and time periods
 - Top-selling product categories
 - Sales distribution across stores
 - Stores with the highest promotional sales
 - Sales seasonality by day, week and month
 
-### Store Analysis
-- Individual store selection
+### 2. Store Analysis
+- Interactive store selection
 - Yearly sales analysis
 - Total products sold
 - Products sold under promotion
 
-### Regional Analysis
-- Analysis by state
-- Yearly transaction volume
-- Ranking of stores by sales
+### 3. Regional Analysis
+- Interactive state selection
+- Yearly transaction analysis
+- Ranking of stores by total sales
 - Identification of the best-selling product category
 
-### Promotion Impact
+### 4. Promotion Impact
 - Comparison of average sales with and without promotions
 - Average sales by store type
-- Identification of product categories that benefit the most from promotions
+- Analysis of which product categories benefit the most from promotions
 
 ## 🛠️ Technologies
 
-- Python
-- Streamlit
-- Pandas
-- Data visualization with Streamlit charts
+- **Python**
+- **Pandas** — data processing and analysis
+- **Streamlit** — interactive dashboard and data visualization
 
 ## 📂 Dataset
 
-The repository contains reduced samples of the original datasets (100 rows per file) due to storage limitations.
+The application works with sales data containing information about stores, product categories, transactions, dates and promotions.
 
-These samples are used to demonstrate the functionality of the dashboard. Therefore, aggregated values and rankings may differ from the results obtained using the complete dataset.
+This repository includes reduced samples of the original datasets (100 rows per file) due to storage limitations. Therefore, the results shown in the application are intended to demonstrate its functionality and may differ from those obtained with the complete dataset.
 
-## 🚀 Running the Project
+## 🚀 How to Run
 
-Install the required dependencies:
+1. Clone or download this repository.
+
+2. Install the required dependencies:
 
 ```bash
 pip install -r requisitos.txt
+```
+
+3. Run the Streamlit application:
+
+```bash
+streamlit run aplicación.py
+```
+
+4. Open the local URL provided by Streamlit in your browser.
+
+## 👩‍💻 Author
+
+**Ángela Porres Cobb**  
+Mathematical Engineering and Artificial Intelligence  
+Universidad Pontificia Comillas – ICAI
